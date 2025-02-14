@@ -1,0 +1,467 @@
+---
+title: "Open Science"
+pagetitle: "What is Open Science anyway?"
+author:
+  name: Cecilia Baldoni
+  affiliation: Max Planck Institute of Animal Behavior
+  mail: cbaldoni@ab.mpg.de
+  url: https://cecibaldoni.github.io/
+  orcid: 0009-0008-1341-9456
+date: 02/14/2025
+date-format: long
+format:
+  revealjs: 
+    theme: custom.scss
+    incremental: true
+    height: 900
+    width: 1600
+    highlight-style: a11y
+    embed-resources: true
+editor: source
+---
+
+## {#title data-menu-title="Title"}
+
+[What is Open Science Anyway? <br> (and why should you care?)<br>]{.title} 
+[Cecilia Baldoni<br> Rado Seminar <br> 14.02.2025]{.subtitle}
+
+
+## {#LoveDataWeek data-menu-title="Love Data Week"}
+
+![](https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/a/4/csm_LoveDataWeek2025_4zu3.png_e8b1b8b027.jpg)
+
+::: {.notes}
+
+Love Data Week (LDW) is an international action week on the topics of research data and research data management. This year motto is "Whose Data Is It, Anyway?"
+:::
+
+## Content {#Content .intro data-menu-title="Content of the Talk"}
+
+::: {.columns}
+::: {.column width="50%"}
+[What I am talking about today:]{.header}
+
+::: {.text}
+- What is Open Science?
+- Why should you care?
+- MPG Resources and Community
+:::
+
+:::
+
+::: {.column width="50%"}
+[What I am **not** talking about today:]{.header .incremental}
+
+::: {.text}
+- Shrews
+:::
+
+![](images/shrew-hanging.png){.fragment .absolute .flip top="210px" right="500px" height="400px"}
+:::
+
+:::
+
+## Why am I talking about Open Science? {.intro}
+
+::: {.columns}
+
+::: {.column width="50%"}
+![](images/JTlost.gif)
+:::
+
+::: {.column width="50%"}
+<br><br><br>
+[Open Science in Practice](https://osip.mpdl.mpg.de/)
+
+:::
+
+:::
+
+::: {.notes}
+When I started my PhD i thought I had a pretty clear idea of what Open Science was. and somehow I got more and more into the topic, because of a specific research interest (i'll tell you more about later). I went to some trainings organised by the Max Planck Society,  and the more I learned, the more I realized how many aspects of research—things we deal with every day—are affected by these practices in ways I hadn’t considered before.
+:::
+
+## Our Department Great Examples! {.intro}
+
+::: {.r-stack}
+
+![](images/example1.png){.fragment}
+
+![](images/example2.png){.fragment}
+
+![](images/example4.png){.fragment}
+
+![](images/example5.png){.fragment}
+
+:::
+
+::: {.notes}
+At the same time, I already want to highlight that our department has great examples already in place
+:::
+
+## What People Think Open Science is {.intro data-menu-title="Open Science"}
+
+![](images/facets.png)
+
+::: footer
+[Max Planck Digital Library](https://osf.io/xsb2k)
+:::
+
+::: {.notes}
+When people hear 'Open Science,' they usually think about Open Access—publishing papers that are free for everyone to read. And that’s true, but Open Science is much more than that.
+:::
+
+## What Open Science is (and more) {.intro data-menu-title="Open Science, actually"}
+
+![](images/facets-complete.png)
+
+::: footer
+[Max Planck Digital Library](https://osf.io/xsb2k)
+:::
+
+::: {.notes}
+For example
+Open Data – Making datasets available so others can verify and build on them.
+Open Methods & Code – Sharing how we got our results, so others can reproduce them.
+Open Peer Review – Making the review process more transparent.
+Open Educational Resources – Sharing knowledge freely so more people can access scientific learning.
+
+At its core, Open Science means to increase the transparency of research workﬂows and, in turn, to improve the reproducibility of scientiﬁc ﬁndings 
+meaning making research more accessible, reusable, and transparent.
+:::
+
+
+## The Challenges {.intro data-menu-title="Barriers to Open Science"}
+
+[Barriers to Open Science:]{.header}
+<br><br>
+
+::: {.text}
+- Norm Dissonance
+:::
+
+. . .
+
+::: {.text}
+*"I’m already doing great (and open!) science. The problem is the others who aren’t."*
+:::
+
+## What are the Norms? {.intro data-menu-title="Norms and Counternorms"}
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+[**Norms:**]{.header}
+
+::: {.text}
+- Communality
+- Universalism
+- Disinterestedness
+- Organised Skepticism
+- Quality
+:::
+
+:::
+
+::: {.column width="50%"}
+
+[**Counternorms:**]{.header}
+
+::: {.text}
+- Secrecy
+- Particularism
+- Self-Interestedness
+- Organised Dogmatism
+- Quantity
+:::
+
+:::
+
+:::
+
+::: footer
+Merton, 1942, *Science and technology in a democratic order*
+:::
+
+::: {.notes}
+Somehow we need to think about how to align our scientific values with our scientific practices. The norms of "doing science", as it was described by Merton in the 1940s, are based on these values, open sharing, science is motivated by knowledge, and consider all new evidence, even against your own work.
+
+On the other side there are the "counternorms", that are the exact opposite. The reason why I am showing this is because of this other study that investigated exactly that:
+:::
+
+## We Need Data {.intro data-menu-title="Data to the rescue"}
+
+::: footer
+*Normative Dissonance in Science* (Anderson, Martinson, De Vries, 2007)
+:::
+
+![](images/norm-dissonance1.png){data-id="dissonance"}
+
+::: {.notes}
+What they did was asking researchers (3000+) "where do you place yourself between the norms and counternorm, what do you believe yourself?". And the answer is a 90% of " yes, I believe in the norms". The shaded grey area is showing the percentage of people for which norms and counternorms are equally important
+:::
+
+## We Need Data {.intro data-menu-title="Data to the rescue"}
+
+::: footer
+*Normative Dissonance in Science* (Anderson, Martinson, De Vries, 2007)
+:::
+
+![](images/norm-dissonance2.png){data-id="dissonance"}
+
+::: {.notes}
+Than they  asked "what do you actually implement in your own practices? You can see that the norms are reduced, but still the majority of researchers believe that what they value and what they implement are the norms
+:::
+
+## We Need Data {.intro data-menu-title="Data to the rescue"}
+
+::: footer
+*Normative Dissonance in Science* (Anderson, Martinson, De Vries, 2007)
+:::
+
+![](images/norm-dissonance3.png){data-id="dissonance"}
+
+::: {.notes}
+Lastly, when asked what do you think others do, it completely flipped. What the last part of the graph is saying is that they believed that their collegues, competitors are acting on the counternorms, so this is the bias we have. we can't see it in ourself but we can in others, but also we do see the norms, we believe in the norms, so how do we get ourselves there?
+:::
+
+## The Challenges {.intro data-menu-title="Barriers to Open Science" auto-animate=true}
+
+[Barriers to Open Science:]{.header auto-animate=true}
+<br>
+
+::: {.text}
+- Norm Dissonance
+- Minimal accountability 
+- Incentives for individual success are focused on getting it published, <br> not getting it right
+- Time and effort
+:::
+
+::: {.notes}
+We have minimal accountability, we mostly see our impact in the number of papers we publish, or the amount of money we get in grants, not the quality of research we conduct in the lab or in the field.
+and this is because the concrete rewards of getting things published, in high impact journals beat the abstract principle of doing the "right" science
+and of course, doing things "right" takes time
+
+So we could summarise it all in one statement, it will be:
+:::
+
+## The Challenges {.intro data-menu-title="Barriers to Open Science" auto-animate=true}
+[Barriers to Open Science:]{.header auto-animate=true}
+
+::: {.text .center-container}
+*"I'm too busy, and what’s in it for me anyway?"  * 
+
+![](images/idonthavetimeforthis.gif){height="500px"}
+:::
+
+## The Sad (and shocking) Truth {.intro data-menu-title="The sad truth"}
+
+::: {.r-stack}
+![](images/cancer-research.png){.fragment}
+
+![](images/self-reported-results.png){.fragment}
+
+![](images/alzheimer1.png){.fragment}
+
+![](images/alzheimer2.png){.fragment}
+
+![](images/doctored.png){.fragment}
+
+:::
+
+::: {.notes}
+The truth is that bad research practices have real costs. They slow down science—they waste resources, mislead researchers, and can even harm lives. I bring you examples of two of the most funded research areas, cancer research and alzheimer research.
+*show examples*
+These are of course extreme examples, but they illustrate a real problem: If research is meant to be a cumulative process, where each study builds on previous work, then that foundation has to be solid. But too often, we see the opposite: findings that can’t be tested, datasets that are inaccessible, methods that aren’t clear enough to replicate. And that raises a critical question:
+If a dataset or method can’t be examined, tested, or verified, is it really contributing to science at all?
+
+:::
+
+##  Meaningful Research: The 4 R’s {.intro data-menu-title="The 4 Rs"}
+
+[The 4 R’s:]{.header}
+
+::: {.columns}
+
+::: {.column width="60%"}
+- **Reliability** – Can we trust the findings? 
+- **Reproducibility** – Can someone else run the same data and get the same results?
+- **Repeatability** – Can the same experiment show the same result when repeated? 
+- **Replicability** – Can another lab do the same study and get the same result?
+:::
+
+::: {.column width="40%"}
+![](images/4r.gif){height="700px"}
+:::
+
+:::
+
+::: {.notes}
+For research to be meaningful, it needs to be reliable, reproducible, and robust. That’s why strong science is built on four essential principles:
+Reliability – Can we trust the findings?
+Reproducibility – Can someone else use the same data and get the same result?
+Repeatability – Can the same experiment produce the same result?
+Replicability – Can another lab conduct a similar study and reach the same conclusion?
+
+The problem is, we know many studies fail to meet these standards.
+
+
+:::
+
+
+## How do we do Science better? {.intro data-menu-title="Doing better science"}
+
+::: {.columns}
+
+::: {.column width="50%"}
+::: {.text}
+[Science should be:]{.header}
+
+- Transparent and Verifiable
+- Reusable, not Disposable
+- Rigorous, not (just) Publishable
+:::
+:::
+
+
+::: {.column width="50%"} 
+::: {.fragment}
+
+
+![](images/itcouldwork.jpeg){height="500px"}
+<br>[This is Open Science!]{.header}
+
+:::
+:::
+
+:::
+
+::: {.notes}
+So how do we do science better? 
+
+We should consider the qualities that make it most effective. Research benefits from being:"
+
+Transparent and Verifiable
+transparency reduces the risk of errors going unnoticed, and facilitates further research 
+
+Reusable, not Disposable
+We often think as the paper publication as the endgoal, but datamethods, workflows,are all great resources that if accessible can be reused
+
+Rigorous, not (just) Publishable
+"Publication is an essential part of disseminating research, but the long-term value of a study depends on whether its findings remain robust over time. 
+
+That is exactly open science.
+
+Of course it sounds all great when we think about science as this abstract principle, but...
+
+:::
+
+
+##  What are the actual Benefits for **You**? {.intro data-menu-title="Benefit"}
+
+::: {.text}
+1. It saves you **Time** (*yes, you heard it right!*)
+2. It strengthens your **Research Record**
+3. It makes **Collaborations** easier
+4. It reduces the risk of **Retractions** and amendments
+:::
+
+
+::: {.notes}
+These are all great benefits for society and for the scientific community, but what's in it for you?
+
+1.journals already require you to submit your data and code when publishing, If you document and organize it well from the start, you’ll actually save time during submission.
+2. Data and code sharing can lead to more citations: People can cite you just by using your data, if it's in a public repository, because it gives you a doi
+3. When research is well-documented and shared, collaborations start faster and require less back-and-forth explaining methods. for early career researchers, Some universities already consider Open Science contributions in hiring & promotions.
+4. I think most of us have this scary idea of an amendment, or a retraction. But the truth is that mistakes happens all the time, we are human. But if your code is shared and transparent,it help prevent errors from going unnoticed, and honestly, it shows no "intent" just honest mistake.
+:::
+
+## "Well, I don't care about that!" {.intro data-menu-title="Gollum Researcher"}
+
+![Gollum Researcher](images/gollum-researcher.png){height="700px"}
+
+
+::: {.notes}
+But let's say you don't care about any of that. Your research is self contained, you don't have or want collaborations, and you want to hoard all your data. Even if you don’t care about Open Science for the scientific community, there’s someone who would totally benefit from it—and I assure you you rarely thing of them, 
+:::
+
+## Well, Future you cares! {.intro data-menu-title="Future you"}
+
+![](images/future-you.png)
+
+::: {.text .center-container}
+*Open Science isn’t just about others, it’s about making research usable for your future self and your lab.*
+:::
+
+## Practical "Future you" Benefits {.intro data-menu-title="Future you Benefits"}
+
+::: {.columns}
+
+::: {.column width="50%"}
+![Piled Higher and Deeper by Jorge Cham](images/file-names.gif){.fragment .absolute height="700px"}
+:::
+
+::: {.column width="50%"}
+![](images/data-management.jpg){.fragment}
+:::
+
+:::
+
+::: {.notes}
+Examples of what goes wrong without good documentation:
+Cryptic filenames: "final_data_fixed_REAL.csv" → No one (including you) knows what it means.
+Lost methods, lost models or unclear statistics
+
+
+:::
+
+## The cultural shift {.intro data-menu-title="Cultural Shift"}
+
+[How do we get there?]{.header}
+![](images/culture-change.png){.absolute height="700px"}
+
+![](images/culture-change-complete.png){.fragment .absolute height="700px"}
+
+::: {.notes}
+Many grants already require some forms of open science and expect data/code sharing.
+Examples:
+Horizon Europe mandates FAIR (Findable, Accessible, Interoperable, Reusable) data.
+ERC and DFG require a data managemet plan
+If you don’t prepare for Open Science now, you might struggle to meet future grant requirements.
+Same for journals, more journals require data and code sharing upon submission.
+
+Some institutions consider open datasets, preprints, and software in hiring and promotions.
+Open Science is shifting from a ‘nice extra’ to an expected research practice.
+:::
+
+## Max Planck Society Resources {.intro data-menu-title="MPG"}
+
+[Do you know these resources?]{.header}
+
+- [Open Science in Practice](https://osip.mpdl.mpg.de/): list of services from the Max Planck Digital Library
+- [Edmond](https://edmond.mpg.de/): the Open Acess research data repository for Max Planck researchers
+- [Research Data Management](https://rdm.mpdl.mpg.de/): information platform for Max Planck researchers
+- [Keeper](https://rdm.mpdl.mpg.de/mpdl-services/keeper/): for archiving long-term datasets
+- For PhD students (and postdocs!) [PhDNet Open Science](https://www.phdnet.mpg.de/phdnet/who/workgroups/open-science-group)
+
+
+## Are you interested but don't know where to start? {.intro data-menu-title="More info"}
+
+::: {.columns}
+
+::: {.column width="50%"}
+![](images/JTlost.gif)
+:::
+
+::: {.column width="50%"}
+<br><br><br>
+[Come talk to me!]{.header .fragment}
+
+:::
+
+:::
+
+## Thank you. {.intro data-menu-title="More info"}
+
+![ZachWeiner](images/thank-you.jpg)
